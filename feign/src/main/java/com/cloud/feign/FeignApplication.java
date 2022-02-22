@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableDiscoveryClient   //注册服务
-@EnableFeignClients      //发现服务
+@EnableFeignClients      //发现服务 测试提交
 public class FeignApplication extends SpringBootServletInitializer {
 
     @Override
